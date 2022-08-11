@@ -1,16 +1,22 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
 body {
     font-size: 16px;
-    background-color: aliceblue;
+    background-color: #E2D1F9;
     flex-direction: column;
     justify-content: flex-start;
 }
 
 :root {
-    --fire: #505a63;
+    --fire: #E2D1F9
 }
 
 .header {
     font-size: 30px;
+    background-color: whitesmoke;
 }
 
 #web {
@@ -18,14 +24,43 @@ body {
 }
 
 nav {
-    display: flex;
-    background-color: var(--fire);
+    background-color: whitesmoke;
     padding: 14px 20px;
+    text-align: right;
+}
+nav a:hover {
+    color: #317773;
+
+}
+
+#about2 {
     text-align: center;
 }
 
+
+
 .work {
     flex:1;
+    background-color: #E2D1F9;
+    padding: 50px;
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    text-align: center;
+}
+
+#github {
+    justify-content: center;
+}
+
+#inprogress1, #inprogress2 {
+    justify-content: space-around;
+}
+
+#contact2 {
+    text-align: center;
+}
+
+footer {
+    background-color: whitesmoke;
 }

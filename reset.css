@@ -12,14 +12,13 @@ html {
 
 body {
     min-height: 100%
-    line-height: 1;
-    font-family: sans-serif;
+  
 }
 
-h1,
 h2,
 h3 {
     font-size: 100%;
+    text-align: center;
 }
 
 input,
