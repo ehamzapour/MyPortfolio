@@ -1,0 +1,31 @@
+body {
+    font-size: 16px;
+    background-color: aliceblue;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+:root {
+    --fire: #505a63;
+}
+
+.header {
+    font-size: 30px;
+}
+
+#web {
+    font-size: 20px;
+}
+
+nav {
+    display: flex;
+    background-color: var(--fire);
+    padding: 14px 20px;
+    text-align: center;
+}
+
+.work {
+    flex:1;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
