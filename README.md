@@ -18,8 +18,9 @@ My portfolio showcases my work, brief summary about me, and contact information
 * CSS
 
 ## Screenshot
+![ScreenshotOne](images/screenshot.png)
 
 ## Project Status
-Project is: in progress
+Project is: Complete
 
 ## Link to Deployed Application
