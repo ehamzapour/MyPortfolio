@@ -45,8 +45,11 @@ nav a:hover {
     padding: 50px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     text-align: center;
+    align-content: space-around;
+    align-items: center;
+    flex-direction: column;
 }
 
 #github {
