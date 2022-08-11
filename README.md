@@ -24,3 +24,4 @@ My portfolio showcases my work, brief summary about me, and contact information
 Project is: Complete
 
 ## Link to Deployed Application
+https://ehamzapour.github.io/MyPortfolio/
