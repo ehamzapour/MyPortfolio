@@ -14,6 +14,7 @@ body {
     --fire: #E2D1F9
 }
 
+/* Header font size and background color */
 .header {
     font-size: 30px;
     background-color: whitesmoke;
@@ -23,11 +24,14 @@ body {
     font-size: 20px;
 }
 
+/* adjustment to the navigation bar */
 nav {
     background-color: whitesmoke;
     padding: 14px 20px;
     text-align: right;
 }
+
+/* change of color when hovering over nav bar */
 nav a:hover {
     color: #317773;
 
@@ -37,11 +41,12 @@ nav a:hover {
     text-align: center;
 }
 
+/* changes height of developer's picture */
 .portfolio {
     height: 350px;
 }
 
-
+/* This changed the work section */
 .work {
     flex:1;
     background-color: #E2D1F9;
@@ -55,6 +60,7 @@ nav a:hover {
     flex-direction: column;
 }
 
+/* centers github image */
 #github {
     justify-content: center;
 }
@@ -66,11 +72,12 @@ nav a:hover {
 #contact2 {
     text-align: center;
 }
-
+/* changes footer background color */
 footer {
     background-color: whitesmoke;
 }
 
+/* helps with adjustment to different screens */
 @media screen and (min-width: 30em) and (orientation: landscape) {
-    
+
 }
