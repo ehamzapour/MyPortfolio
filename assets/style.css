@@ -4,77 +4,72 @@
 
 
 body {
-    font-size: 16px;
-    background-color: #E2D1F9;
+    font-size: 25px;
     flex-direction: column;
     justify-content: flex-start;
+    background-image: url("cubepattern.jpeg");
+    background-color: #cccccc;
 }
 
-:root {
-    --fire: #E2D1F9
-}
 
-/* Header font size and background color */
+
+/* HEADER */
 .header {
     font-size: 30px;
     background-color: whitesmoke;
-}
-
-#web {
-    font-size: 20px;
-}
-
-/* adjustment to the navigation bar */
-nav {
-    background-color: whitesmoke;
-    padding: 14px 20px;
-    text-align: right;
-}
-
-/* change of color when hovering over nav bar */
-nav a:hover {
-    color: #317773;
-
-}
-
-#about2 {
-    text-align: center;
-}
-
-/* changes height of developer's picture */
-.portfolio {
-    height: 350px;
-}
-
-/* This changed the work section */
-.work {
-    flex:1;
-    background-color: #E2D1F9;
-    padding: 50px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    text-align: center;
-    align-content: space-around;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
     align-items: center;
-    flex-direction: column;
+    padding: 30px;
 }
 
-/* centers github image */
-#github {
-    justify-content: center;
+/* ABOUT ME SECTION */
+#about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
-#inprogress1, #inprogress2 {
-    justify-content: space-around;
+/* ABOUT PICTURE */
+#portfolio {
+    height: 800px;
+    padding: 20px;
 }
 
-#contact2 {
+#elham {
+    font-size: 50px;
+}
+
+#fullStack {
+    font-size: 30px;
+}
+
+/* PROJECTS SECTION */
+
+#project {
+    font-size: 40px;
     text-align: center;
+    margin: 50px;
+    text-decoration: underline;
 }
-/* changes footer background color */
-footer {
-    background-color: whitesmoke;
+
+#projectBox {
+    display: flex;
+}
+
+/* CONTACT SECTION */
+.contact {
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#email {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
 
 /* helps with adjustment to different screens */

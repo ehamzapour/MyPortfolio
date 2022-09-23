@@ -16,9 +16,9 @@ body {
 }
 
 h2,
-h3 {
-    font-size: 100%;
-    text-align: center;
+h3,
+p {
+    text-align: left;
     padding: 10px;
 
 }
@@ -33,4 +33,8 @@ pre,
 code {
     font-size: 100%;
     font-family: inherit;
+}
+
+.column {
+    text-align: end;
 }
