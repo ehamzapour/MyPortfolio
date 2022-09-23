@@ -73,6 +73,8 @@ body {
 }
 
 /* helps with adjustment to different screens */
-@media screen and (min-width: 30em) and (orientation: landscape) {
-
-}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .card {
+      background: #bada55;
+    }
+  }
