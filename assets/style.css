@@ -15,13 +15,13 @@ body {
 
 /* HEADER */
 .header {
-    font-size: 30px;
+    font-size: 20px;
     background-color: whitesmoke;
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: nowrap;
     align-items: center;
-    padding: 30px;
+    padding: 5px;
 }
 
 /* ABOUT ME SECTION */
@@ -33,24 +33,24 @@ body {
 
 /* ABOUT PICTURE */
 #portfolio {
-    height: 800px;
+    height: 500px;
     padding: 20px;
 }
 
 #elham {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 #fullStack {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 /* PROJECTS SECTION */
 
 #project {
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
-    margin: 50px;
+    margin: 20px;
     text-decoration: underline;
 }
 
@@ -60,16 +60,16 @@ body {
 
 /* CONTACT SECTION */
 .contact {
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     text-decoration: underline;
 }
 
 #email {
-    font-size: 30px;
+    font-size: 20px;
     display: flex;
     justify-content: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 /* helps with adjustment to different screens */
