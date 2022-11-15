@@ -18,7 +18,7 @@ My portfolio showcases my work, brief summary about me, and contact information
 * CSS
 
 ## Screenshot
-![ScreenshotOne](./images/screenshot.png)
+![ScreenshotOne](./images/newscreenshot.png)
 
 ## Project Status
 Project is: Complete
